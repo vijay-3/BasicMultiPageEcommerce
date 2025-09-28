@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css" type="text/css">
+	<title>ShopeLite - Simple eCommerce Website Template</title>
+
+	<!-- Bootstrap Css Link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body class="roboto-body-font">
+	<div class="whole_page_container_div">
+
+		<!-- Customer Enquiry -->
+		<div class="container-fluid text-center">
+			<div class="row business_info">
+				<div class="col">
+					Need any help? Call us <a href="#" class="help_num_1">112233344455</a>
+				</div>
+				<div class="col">
+					Summar sale discount 60% off! <a href="#" class="shop_now_1">Shop Now</a>
+				</div>
+				<div class="col">
+					2-3 business days delivery & free returns
+				</div>
+			</div>
+		</div>
+
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary mt-2 mb-3">
+			<div class="container nav_bar_div_container">
+				<a class="navbar-brand" href="./index.html"><img src="./image/main-logo.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0 main_nav_bar">
+						<li class="nav-item">
+							<a class="nav-link active home_page" aria-current="page" href="./index.html">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./about.html">ABOUT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./shop.html">SHOP</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./blogs.html">BLOGS</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								PAGES
+							</a>
+							<ul class="dropdown-menu sub_nav_bar">
+								<li><a class="dropdown-item" href="#">ABOUT <span>PRO</span></a></li>
+								<li><a class="dropdown-item" href="#">SHOP <span>PRO</span></a></li>
+								<li><a class="dropdown-item" href="#">SINGLE PRODUCT <span>PRO</span></a></li>
+								<li><a class="dropdown-item" href="#">CART <span>PRO</span></a></li>
+								<li><a class="dropdown-item" href="#">CHECKOUT <span>PRO</span></a></li>
+								<li><a class="dropdown-item" href="#">BLOG <span>PRO</span></a></li>
+								<li><a class="dropdown-item" href="#">SINGLE POST <span>PRO</span></a></li>
+								<li><a class="dropdown-item" href="#">CONTACT <span>PRO</span></a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">CONTACT</a>
+						</li>
+						<li class="nav-item get_pro">
+							<a class="nav-link" href="#">GET PRO</a>
+						</li>
+					</ul>
+					<div class="collapse navbar-collapse">
+						<ul class="navbar-nav nav_bar_icon">
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="bi bi-person"></i></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="bi bi-heart"></i></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><i class="bi bi-cart3"></i>(02)</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Image Slide Container -->
+		<div id="carouselExampleIndicators" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="slide_1">
+						<div class="slide_img_info">
+							<h1>GOPRO HERO9 BLACK</h1>
+							<p>Limited stocks available. Grab it now!</p>
+							<a href="#">SHOP COLLECTION</a>
+						</div>
+						<div>
+							<img src="./image/banner-image_1.png" class="d-block slide_img_1" alt="...">
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="slide_2">
+						<div class="slide_img_info slide_2_img_info">
+							<h1>IPHONE 15 PRO MAX</h1>
+							<p>Discount available. Grab it now!</p>
+							<a href="#">SHOP PRODUCT</a>
+						</div>
+						<div class="slide_2_img_div">
+							<img src="./image/banner-image_2.png" class="d-block" alt="...">
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="slide_2">
+						<div class="slide_img_info slide_3_img_info">
+							<h1>MACBOOK COLLECTION</h1>
+							<p>Limited stocks available. Grab it now!</p>
+							<a href="#">SHOP COLLECTION</a>
+						</div>
+						<div class="slide_3_img_div">
+							<img src="./image/banner-image_3.png" class="d-block slide_3_img" alt="...">
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+		<!-- Compamy Services Card List -->
+		<div class="container-fluid company_services_container">
+			<div class="card mb-3">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<i class="bi bi-cart3"></i>
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h3 class="card-title">FREE DELIVERY</h3>
+							<p class="card-text">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<i class="bi bi-award"></i>
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h3 class="card-title">QUALITY GAURANTEE</h3>
+							<p class="card-text">Dolor sit amet orem ipsu mcons ectetur adipi elit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<i class="bi bi-tag"></i>
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h3 class="card-title">DAILY OFFERS</h3>
+							<p class="card-text">Amet consectetur adipi elit loreme ipsum dolor sit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3">
+				<div class="row g-0">
+					<div class="col-md-4">
+						<i class="bi-shield-plus"></i>
+					</div>
+					<div class="col-md-8">
+						<div class="card-body">
+							<h3 class="card-title">100% SECURE PAYMENT</h3>
+							<p class="card-text">Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Categories Card List -->
+		<h3 class="categories_card_list_heading">CATEGORIES
+			///////////////////////////////////////////////////////////////////////</h3>
+		<div class="card-group mt-5 mb-5 category_card_main_div">
+			<div class="card">
+				<a href="#"><img src="./image/category_image_1.png" class="card-img-top" alt="..."></a>
+				<div class="card-body">
+					<h5 class="card-title category_title"><a href="#">Phones</a></h5>
+				</div>
+			</div>
+			<div class="card">
+				<a href="#"><img src="./image/category_image_2.png" class="card-img-top" alt="..."></a>
+				<div class="card-body">
+					<h5 class="card-title category_title"><a href="#">PlayStations</a></h5>
+				</div>
+			</div>
+			<div class="card">
+				<a href=""><img src="./image/category_image_3.png" class="card-img-top" alt="..."></a>
+				<div class="card-body">
+					<h5 class="card-title category_title"><a href="#">Digital Watches</a></h5>
+				</div>
+			</div>
+			<div class="card">
+				<a href="#"><img src="./image/category_image_4.png" class="card-img-top" alt="..."></a>
+				<div class="card-body">
+					<h5 class="card-title category_title"><a href="#">Joysticks</a></h5>
+				</div>
+			</div>
+			<div class="card">
+				<img src="./image/category_image_5.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title category_title"><a href="#">EarPods</a></h5>
+				</div>
+			</div>
+			<div class="card">
+				<img src="./image/category_image_6.png" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title category_title"><a href="#">Laptops</a></h5>
+				</div>
+			</div>
+		</div>
+
+		<!-- Best Selling Card Slide -->
+		<h3 class="best_selling_card_slide_heading">BEST SELLING ITEMS
+			/////////////////////////////////////////////////////////////</h3>
+		<!-- <div class="row best_selling_image_div">
+		<div class="col-lg-3 best_selling_image_1_div">
+			<a href="#">
+				<img src="./image/best_selling_image_1.png" alt="">
+			</a>
+			<div class="best_selling_icon_1_div">
+				<a href="#"><i class="bi bi-cart3"></i></a>
+				<a href="#"><i class="bi bi-heart"></i></a>
+			</div>
+			<h5><a href="#">IPad (9th Gen)</a></h5>
+			<p>The iPad (9th generation) specs include a 10.2” Retina display with True Tone, an Apple A13 Bionic chip
+				with Neural Engine, up to 256GB of storage, and a home button with Touch ID for device security.</p>
+		</div>
+		<div class="col-lg-3 best_selling_image_2_div">
+			<a href="#">
+				<img src="./image/best_selling_image_2.png" alt="">
+			</a>
+			<div class="best_selling_icon_2_div">
+				<a href="#"><i class="bi bi-cart3"></i></a>
+				<a href="#"><i class="bi bi-heart"></i></a>
+			</div>
+			<h5><a href="#">Drone With Camera<a></h5>
+			<p>Drone cameras work similarly to traditional cameras but with the added capability of aerial photography.
+				They consist of several components, including the lens, image sensor, and stabilization system; see
+				facial recognition pros and cons.</p>
+		</div>
+		<div class="col-lg-3 best_selling_image_3_div">
+			<a href="#">
+				<img src="./image/best_selling_image_3.png" alt="">
+			</a>
+			<div class="best_selling_icon_3_div">
+				<a href="#"><i class="bi bi-cart3"></i></a>
+				<a href="#"><i class="bi bi-heart"></i></a>
+			</div>
+			<h5><a href="#">Apple Watch (2nd Gen)</a></h5>
+			<p>The Apple Watch SE (2nd generation) offers a blend of fitness tracking, communication features, and a
+				bright Retina display, making it a versatile choice for users.</p>
+		</div>
+		<div class="col-lg-3 best_selling_image_4_div">
+			<a href="#">
+				<img src="./image/best_selling_image_4.png" alt="">
+			</a>
+			<div class="best_selling_icon_4_div">
+				<a href="#"><i class="bi bi-cart3"></i></a>
+				<a href="#"><i class="bi bi-heart"></i></a>
+			</div>
+			<h5><a href="#">Ultra HD TV</a></h5>
+			<p>It is commonly known as 4K TV, as it boasts a resolution of approximately 3840 x 2160 pixels, which is
+				four times the resolution of Full HD (1080p) displays. UHD TVs employ advanced LCD, LED, or OLED
+				(Organic Light Emitting Diode) panel technology to deliver stunningly sharp and lifelike images.</p>
+		</div>
+	</div> -->
+
+		<!-- <div class="container text-center"> -->
+		<div class="row best_selling_image_div">
+			<div class="col best_selling_image_1_div">
+				<a href="#">
+					<img src="./image/best_selling_image_1.png" alt="">
+				</a>
+				<div class="best_selling_icon_1_div">
+					<a href="#"><i class="bi bi-cart3"></i></a>
+					<a href="#"><i class="bi bi-heart"></i></a>
+				</div>
+				<h5><a href="#">IPad (9th Gen)</a></h5>
+				<p>The iPad (9th generation) specs include a 10.2” Retina display with True Tone, an Apple A13 Bionic
+					chip
+					with Neural Engine, up to 256GB of storage, and a home button with Touch ID for device security.</p>
+			</div>
+			<div class="col best_selling_image_2_div">
+				<a href="#">
+					<img src="./image/best_selling_image_2.png" alt="">
+				</a>
+				<div class="best_selling_icon_2_div">
+					<a href="#"><i class="bi bi-cart3"></i></a>
+					<a href="#"><i class="bi bi-heart"></i></a>
+				</div>
+				<h5><a href="#">Drone With Camera<a></h5>
+				<p>Drone cameras work similarly to traditional cameras but with the added capability of aerial
+					photography.
+					They consist of several components, including the lens, image sensor, and stabilization system; see
+					facial recognition pros and cons.</p>
+			</div>
+			<div class="col best_selling_image_3_div">
+				<a href="#">
+					<img src="./image/best_selling_image_3.png" alt="">
+				</a>
+				<div class="best_selling_icon_3_div">
+					<a href="#"><i class="bi bi-cart3"></i></a>
+					<a href="#"><i class="bi bi-heart"></i></a>
+				</div>
+				<h5><a href="#">Apple Watch (2nd Gen)</a></h5>
+				<p>The Apple Watch SE (2nd generation) offers a blend of fitness tracking, communication features, and a
+					bright Retina display, making it a versatile choice for users.</p>
+			</div>
+			<div class="col best_selling_image_4_div">
+				<a href="#">
+					<img src="./image/best_selling_image_4.png" alt="">
+				</a>
+				<div class="best_selling_icon_4_div">
+					<a href="#"><i class="bi bi-cart3"></i></a>
+					<a href="#"><i class="bi bi-heart"></i></a>
+				</div>
+				<h5><a href="#">Ultra HD TV</a></h5>
+				<p>It is commonly known as 4K TV, as it boasts a resolution of approximately 3840 x 2160 pixels, which
+					is
+					four times the resolution of Full HD (1080p) displays. UHD TVs employ advanced LCD, LED, or OLED
+					(Organic Light Emitting Diode) panel technology to deliver stunningly sharp and lifelike images.</p>
+			</div>
+		</div>
+		<!-- </div> -->
+
+		<!-- Discount Apple Collection -->
+		<div class="row discount_apple_collection_div">
+			<div class="col-lg-6">
+				<img src="./image/discount_apple_collection_image.png" alt="">
+			</div>
+			<div class="col-lg-6">
+				<h2>30% DISCOUNT ON APPLE COLLECTION</h2>
+				<a href="#">SHOP COLLECTION</a>
+			</div>
+		</div>
+
+		<!-- Featured, Latest Item, Best Review and On Sale List -->
+		<div class="container featured_latest_best_sale_container">
+			<div class="row featured_latest_best_sale_heading_div">
+				<div class="col-lg-3 featured_heading_div">
+					<h2>FEATURED</h2>
+					<h3>/////////////////////</h3>
+				</div>
+				<div class="col-lg-3 latest_heading_div">
+					<h2>LATEST ITEMS</h2>
+					<h3>////////////////////</h3>
+				</div>
+				<div class="col-lg-3 best_review_heading_div">
+					<h2>BEST REVIEW</h2>
+					<h3>////////////////////</h3>
+				</div>
+				<div class="col-lg-3 on_sale_heading_div">
+					<h2>ON SALE</h2>
+					<h3>////////////////////</h3>
+				</div>
+			</div>
+			<div class="row first_row_products_div">
+				<div class="col-lg-3">
+					<div class="card">
+						<img src="./image/featured_image_1.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title"><a href="#">Wireless Headset</a></h3>
+							<p class="card-text first_row_products_price">$500</p>
+							<p class="card-text">Wireless Headphones are excellent for smartphone, tablet, game console,
+								and laptop users who want the ability to listen free from the shackles of inconvenient
+								wires</p>
+							<a href="#" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card">
+						<img src="./image/latest_item_image_1.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title"><a href="#">Apple Airpod</a></h3>
+							<p class="card-text first_row_products_price">$450</p>
+							<p class="card-text">Apple AirPods are wireless Bluetooth earbuds designed by Apple, first
+								announced in September
+								2016. They feature dual optical sensors that detect when they are in your ears, allowing
+								for
+								automatic play and pause of music, and include dual-voice accelerometers for voice
+								detection.</p>
+							<a href="#" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card">
+						<img src="./image/best_review_image_1.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title"><a href="#">Wireless Joysticks</a></h3>
+							<p class="card-text first_row_products_price">$350</p>
+							<p class="card-text">This gaming controller features Bluetooth connectivity, allowing
+								seamless wireless operation with
+								Android, PC, and TV devices. Ergonomic Design: The contoured shape and textured grips
+								provide a
+								comfortable and secure grip during extended gaming sessions.</p>
+							<a href="#" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card">
+						<img src="./image/on_sale_image_1.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title"><a href="#">Iphone 15 Pro Max</a></h3>
+							<p class="card-text first_row_products_price"><del>$1666</del> $999</p>
+							<p class="card-text">The iPhone 15 Pro Max features a 6.7-inch display, powered by the A17
+								Pro chip, and offers a 48MP main camera for high-quality photography. It has a durable
+								titanium frame, making it lightweight yet strong, and is equipped with a 4441 mAh
+								battery for extended usage.</p>
+							<a href="#" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row second_row_products_div">
+				<div class="col-lg-3">
+					<div class="card">
+						<img src="./image/featured_image_2.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title"><a href="#">Iphone X Pro Max</a></h3>
+							<p class="card-text second_row_products_price">$820</p>
+							<p class="card-text">The iPhone X (Roman numeral "X" pronounced "ten") is a smartphone that
+								was developed and marketed
+								by Apple Inc. It is part of the 11th generation of the iPhone. Available for pre-order
+								from
+								September 26, 2017, it was released on November 3, 2017.</p>
+							<a href="#" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card">
+						<img src="./image/latest_item_image_2.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title"><a href="#">Screen Touch Watch</a></h3>
+							<p class="card-text second_row_products_price">$750</p>
+							<p class="card-text">Touch screen watches have revolutionized the way we interact with
+								timepieces, offering a blend of
+								functionality and style. These smart devices not only tell time but also provide a range
+								of
+								features such as fitness tracking, notifications, and customizable watch faces.</p>
+							<a href="#" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card">
+						<img src="./image/best_review_image_2.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title"><a href="#">Apple White Airpod</a></h3>
+							<p class="card-text second_row_products_price">$330</p>
+							<p class="card-text">White noise can be described as a static or hissing sound that
+								originates from the AirPods during
+								audio playback or calls. It might be a mild annoyance or a severe disturbance, but
+								either way,
+								it's essential to learn why white noise occurs and how to deal with it.</p>
+							<a href="#" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card">
+						<img src="./image/on_sale_image_2.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title"><a href="#">White Airpods</a></h3>
+							<p class="card-text second_row_products_price"><del>$500</del> $410</p>
+							<p class="card-text">The Apple AirPods 4 deliver impressive active noise cancellation,
+								especially for low-frequency
+								noises, and offer an exceptional Transparency mode for natural conversations.</p>
+							<a href="#" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row third_row_products_div">
+				<div class="col-lg-3">
+					<div class="card">
+						<img src="./image/featured_image_3.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title"><a href="#">Iphone 11 Pro</a></h3>
+							<p class="card-text third_row_products_price">$920</p>
+							<p class="card-text">iOS is the world’s most personal and secure mobile operating system,
+								packed with powerful
+								features and designed to protect your privacy. See what’s new in iOS. Accessibility
+								features
+								help people with disabilities get the most out of their new iPhone 11 Pro.</p>
+							<a href="#" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card">
+						<img src="./image/latest_item_image_3.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title"><a href="#">Digital Watch</a></h3>
+							<p class="card-text third_row_products_price">$600</p>
+							<p class="card-text">A digital watch is a type of clock that displays the time digitally,
+								using an LCD or LED screen,
+								as opposed to an analog watch which features three hands to denote the hour, minutes,
+								and
+								seconds.</p>
+							<a href="#" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card">
+						<img src="./image/best_review_image_3.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title"><a href="#">Gimbal Stabilizer</a></h3>
+							<p class="card-text third_row_products_price">$920</p>
+							<p class="card-text">A gimbal stabilizer is a device that uses motors and sensors to
+								stabilize a camera or smartphone, allowing for smooth and steady video footage even
+								during movement.</p>
+							<a href="#" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card">
+						<img src="./image/on_sale_image_3.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title"><a href="#">CCTV Camera</a></h3>
+							<p class="card-text third_row_products_price"><del>$600</del> $500</p>
+							<p class="card-text">CCTV is a type of security camera surveillance system that uses video
+								cameras to transmit a signal to a specific set of monitors. Unlike broadcast television,
+								which sends signals openly, CCTV is a closed-loop system, meaning the video is
+								accessible only to designated users.</p>
+							<a href="#" class="btn btn-primary">Add to Cart</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Customers Reviews List -->
+			<h3 class="customer_review_heading">CUSTOMERS REVIEWS
+				/////////////////////////////////////////////////////////////////////</h3>
+			<div class="container text-center">
+				<div class="row customer_review_div">
+					<div class="col customer_review_1_div">
+						<p>"I stumbled upon this tech store while searching for a new laptop, and I couldn't be happier
+							with
+							my
+							experience! The staff was incredibly knowledgeable and guided me through the process of
+							choosing
+							the
+							perfect device for my needs. Highly recommended!"</p>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<h5>Emma Chamberlin</h5>
+					</div>
+					<div class="col customer_review_2_div">
+						<p>"This tech store is my go-to for all things tech! Whether it's a new smartphone, accessories,
+							or
+							even
+							troubleshooting advice, they've always got me covered. The staff is friendly, their
+							expertise is
+							unmatched. Trust me; you won't regret shopping here!"</p>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<i class="bi bi-star-fill"></i>
+						<h5>Thomas John</h5>
+					</div>
+				</div>
+			</div>
+
+			<!-- Lstest Posts Card List -->
+			<h3 class="latest_post_card_heading">LATEST POSTS
+				/////////////////////////////////////////////////////////////////////////////</h3>
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-lg-3 latest_gadgets_1_div">
+						<p class="latest_gadgets_1_heading"><a href="#">GADGETS</a></p>
+						<img src="./image/latest_gadgets_image.jpg" alt="">
+						<h4><a href="#">5 MUST-HAVE GADGETS FOR THE MODERN HOME</a></h4>
+						<p class="latest_post_price">$26000</p>
+						<p class="latest_gadgets_image_description">Dive into the world of cutting-edge technology with
+							our
+							latest blog post, where we highlight five essential gadg</p>
+						<p class="latest_gadgets_image_more_info"><a href="#">Read More</a></p>
+					</div>
+					<div class="col-lg-3 latest_phones_1_div">
+						<p class="latest_phones_1_heading"><a href="#">PHONES</a></p>
+						<img src="./image/latest_phones_image.jpg" alt="">
+						<h4><a href="#">ECO-FRIENDLY INNOVATIONS MAKING A DIFFERENCE</a></h4>
+						<p class="latest_post_price">$14000</p>
+						<p class="latest_phones_image_description">Explore the intersection of technology and
+							sustainability
+							in
+							our latest blog post. Learn about the innovative</p>
+						<p class="latest_phones_image_more_info"><a href="#">Read More</a></p>
+					</div>
+					<div class="col-lg-3 latest_tech_1_div">
+						<p class="latest_tech_1_heading"><a href="#">TECH</a></p>
+						<img src="./image/latest_tech_image.jpg" alt="">
+						<h4><a href="#">THE FUTURE OF WEARABLE TECH: TRENDS TO WATCH</a></h4>
+						<p class="latest_post_price">$56000</p>
+						<p class="latest_tech_image_description">Stay ahead of the curve with our insightful look into
+							the
+							rapidly evolving landscape of wearable technology.</p>
+						<p class="latest_tech_image_more_info"><a href="#">Read More</a></p>
+					</div>
+					<div class="col-lg-3 latest_digital_watch_1_div">
+						<p class="latest_digital_watch_1_heading"><a href="#">DIGITAL WATCH</a></p>
+						<img src="./image/latest_digital_watch_image.jpg" alt="">
+						<h4><a href="#">TOP APPS AND TOOLS FOR REMOTE WORK</a></h4>
+						<p class="latest_post_price">$5000</p>
+						<p class="latest_digital_watch_description">In today's remote work environment, productivity is
+							key.
+							Discover the top apps and tools that can help you stay</p>
+						<p class="latest_digital_watch_image_more_info"><a href="#">Read Me</a></p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Other Brand Name Image List -->
+			<div class="container-fluid text-center other_brand_name_image_container_div">
+				<hr class="other_brand_name_image_hr_1">
+				<div class="row other_brand_name_image_main_div">
+					<div class="col">
+						<a href="#"><img src="./image/brand_name_image_1.png" alt=""></a>
+					</div>
+					<div class="col">
+						<a href="#"><img src="./image/brand_name_image_2.png" alt=""></a>
+					</div>
+					<div class="col">
+						<a href="#"><img src="./image/brand_name_image_3.png" alt=""></a>
+					</div>
+					<div class="col">
+						<a href="#"><img src="./image/brand_name_image_4.png" alt=""></a>
+					</div>
+					<div class="col">
+						<a href="#"><img src="./image/brand_name_image_5.png" alt=""></a>
+					</div>
+				</div>
+				<hr class="other_brand_name_image_hr_2">
+			</div>
+
+			<!-- Instagram Images List  -->
+			<h3 class="instagram_images_heading">INSTAGRAM #SHOPLITE</h3>
+			<div class="container text-center instagram_images_container_div">
+				<div class="row">
+					<div class="col-lg-2">
+						<a href="#"><img src="./image/instagram_image_1.jpg" alt=""></a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#"><img src="./image/instagram_image_2.jpg" alt=""></a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#"><img src="./image/instagram_image_3.jpg" alt=""></a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#"><img src="./image/instagram_image_4.jpg" alt=""></a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#"><img src="./image/instagram_image_5.jpg" alt=""></a>
+					</div>
+					<div class="col-lg-2">
+						<a href="#"><img src="./image/instagram_image_6.jpg" alt=""></a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Links And Contact Details -->
+
+			<div class="container text-center links_and_contact_details_container_div">
+				<div class="row">
+					<div class="col-lg-3 links_and_contact_details_div_1">
+						<img src="./image/main-logo.png" alt="">
+						<p>Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat
+							aenean
+							odio erat nullam fringilla.</p>
+						<ul>
+							<li><a href="#"><img src="./image/links_and_contact_details_logo_1.png" alt=""></a></li>
+							<li><a href="#"><img src="./image/links_and_contact_details_logo_2.png" alt=""></a></li>
+							<li><a href="#"><img src="./image/links_and_contact_details_logo_3.png" alt=""></a></li>
+							<li><a href="#"><img src="./image/links_and_contact_details_logo_4.png" alt=""></a></li>
+							<li><a href="#"><img src="./image/links_and_contact_details_logo_5.png" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 links_and_contact_details_div_2">
+						<h5>Quick Links</h5>
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">ABOUT</a></li>
+							<li><a href="#">SHOP</a></li>
+							<li><a href="#">BLOGS</a></li>
+							<li><a href="#">CONTACT</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 links_and_contact_details_div_3">
+						<h5>Help & Info Help</h5>
+						<ul>
+							<li><a href="#">TRACK YOUR ORDER</a></li>
+							<li><a href="#">RETURNS POLICIES</a></li>
+							<li><a href="#">SHIPPING + DELIVERY</a></li>
+							<li><a href="#">CONTACT US</a></li>
+							<li><a href="#">FAQS</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 links_and_contact_details_div_4">
+						<h5>CONTACT US</h5>
+						<p>Do you have any queries or suggestions? <a href="#">yourinfo@gmail.com</a></p>
+						<p>If you need support? Just give us a call, <a href="#">+55 111 222 333 44</a></p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Footer Container -->
+
+			<hr class="footer_top_horizontal_line">
+
+			<div class="container text-center footer_contaier_div">
+				<div class="row footer_main_div">
+					<div class="col footer_div_1">
+						<div class="ship_and_payment">
+							<div class="ship">
+								<p>We ship with: </p>
+								<img src="./image/footer_image_1.png" alt="" class="footer_image_1">
+								<img src="./image/footer_image_2.png" alt="" class="footer_image_2">
+							</div>
+							<div class="payment">
+								<p>Payment options: </p>
+								<img src="./image/footer_image_3.jpg" alt="" class="footer_image_3">
+								<img src="./image/footer_image_4.jpg" alt="" class="footer_image_4">
+								<img src="./image/footer_image_5.jpg" alt="" class="footer_image_5">
+							</div>
+						</div>
+						<div class="copyright">
+							<p>© Copyright 2024 ShopLite. HTML Template by <a href="#">TemplatesJungle</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+			crossorigin="anonymous"></script>
+</body>
+
+</html>

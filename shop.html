@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/shop.css" type="text/css">
+    <title>ShopeLite - Simple eCommerce Website Template</title>
+
+    <!-- Bootstrap Css Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- Customer Enquiry -->
+    <div class="container-fluid text-center">
+        <div class="row business_info">
+            <div class="col">
+                Need any help? Call us <a href="#" class="help_num_1">112233344455</a>
+            </div>
+            <div class="col">
+                Summar sale discount 60% off! <a href="#" class="shop_now_1">Shop Now</a>
+            </div>
+            <div class="col">
+                2-3 business days delivery & free returns
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mt-2 mb-3">
+        <div class="container nav_bar_div_container">
+            <a class="navbar-brand" href="./index.html"><img src="./image/main-logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 main_nav_bar">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active shop_page" href="./shop.html">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blogs.html">BLOGS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu sub_nav_bar">
+                            <li><a class="dropdown-item" href="#">ABOUT <span>PRO</span></a></li>
+                            <li><a class="dropdown-item" href="#">SHOP <span>PRO</span></a></li>
+                            <li><a class="dropdown-item" href="#">SINGLE PRODUCT <span>PRO</span></a></li>
+                            <li><a class="dropdown-item" href="#">CART <span>PRO</span></a></li>
+                            <li><a class="dropdown-item" href="#">CHECKOUT <span>PRO</span></a></li>
+                            <li><a class="dropdown-item" href="#">BLOG <span>PRO</span></a></li>
+                            <li><a class="dropdown-item" href="#">SINGLE POST <span>PRO</span></a></li>
+                            <li><a class="dropdown-item" href="#">CONTACT <span>PRO</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item get_pro">
+                        <a class="nav-link" href="#">GET PRO</a>
+                    </li>
+                </ul>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav nav_bar_icon">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-person"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-heart"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-cart3"></i>(02)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Shop Container -->
+    <div class="container-fluid page_heading_container">
+        <h1 class="page_indication_headinng">SHOP</h1>
+        <p><a href="./index.html">Home ></a><u>SHOP</u></p>
+    </div>
+
+    <!-- Compamy Services Card List -->
+    <div class="container-fluid company_services_container">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <i class="bi bi-cart3"></i>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">FREE DELIVERY</h3>
+                        <p class="card-text">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <i class="bi bi-award"></i>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">QUALITY GAURANTEE</h3>
+                        <p class="card-text">Dolor sit amet orem ipsu mcons ectetur adipi elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <i class="bi bi-tag"></i>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">DAILY OFFERS</h3>
+                        <p class="card-text">Amet consectetur adipi elit loreme ipsum dolor sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <i class="bi-shield-plus"></i>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">100% SECURE PAYMENT</h3>
+                        <p class="card-text">Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Best Store Card -->
+    <div class="container best_store_card_container">
+        <div class="card best_store_card_div">
+            <div class="row gx-5">
+                <div class="col">
+                    <img src="./image/about_page_best_store_image.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col">
+                    <div class="card-body best_store_card_text_div">
+                        <h1 class="card-title best_store_card_heading">BEST DIGITAL STORE BASICSTORE</h1>
+                        <p class="card-text best_store_card_text">Risus augue curabitur diam senectus congue velit et.
+                            Sed vitae metus nibh sit era. Nulla adipiscing pharetra pellentesque maecenas odio eros at.
+                            Et libero vulputate amet duis erat volutpat vitae eget. Sed vitae metus nibh sit era. Nulla
+                            adipiscing pharetra eros at.</p>
+                        <p class="card-text best_store_card_text">Nulla adipiscing pharetra pellentesque maecenas odio
+                            eros at. Et libero vulputate amet duis erat volutpat vitae eget. Quam libero etiam et in ac
+                            at quis. Risus augue curabitur diam senectus congue velit et.</p>
+                        <button class="best_store_card_shop_button"><a href="#">GO TO SHOP</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured, Latest Item, Best Review and On Sale List -->
+    <div class="container featured_latest_best_sale_container">
+        <div class="row featured_latest_best_sale_heading_div">
+            <div class="col-lg-3 featured_heading_div">
+                <h2>BALL</h2>
+                <h3>/////////////////////</h3>
+            </div>
+            <div class="col-lg-3 latest_heading_div">
+                <h2>WATCH</h2>
+                <h3>////////////////////</h3>
+            </div>
+            <div class="col-lg-3 best_review_heading_div">
+                <h2>FAN</h2>
+                <h3>////////////////////</h3>
+            </div>
+            <div class="col-lg-3 on_sale_heading_div">
+                <h2>BED</h2>
+                <h3>////////////////////</h3>
+            </div>
+        </div>
+        <div class="row first_row_products_div">
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./image/ball_image_1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="#">Basket Ball</a></h3>
+                        <p class="card-text first_row_products_price">$690</p>
+                        <p class="card-text">A basketball is a spherical ball used in basketball games. Basketballs
+                            usually range in size from
+                            very small promotional items that are only a few inches (some centimeters) in diameter to
+                            extra
+                            large balls nearly 2 feet (60 cm) in diameter used in training exercises.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./image/watch_image_1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="#">Digital Watch</a></h3>
+                        <p class="card-text first_row_products_price">$960</p>
+                        <p class="card-text">Digital watches expanded watch functionality with features like alarms,
+                            calculators, and temperature
+                            sensors, changing consumer expectations. The legacy of digital watches lives on in today’s
+                            smartwatches, blending technology with style and versatility.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./image/fan_image_1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="#">Tower Fan</a></h3>
+                        <p class="card-text first_row_products_price">$750</p>
+                        <p class="card-text">Tower fans are sleek, vertical cooling devices designed to efficiently
+                            circulate air in a room while
+                            taking up minimal floor space.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./image/bed_image_1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="#">Memory Foam Bed</a></h3>
+                        <p class="card-text first_row_products_price"><del>$4809</del> $2560</p>
+                        <p class="card-text">A memory foam mattress is made up of layers of memory foam which are also
+                            known as support foam. The
+                            memory foam reacts to the body temperature. It softens with the body heat and takes the
+                            shape of the
+                            body curvature which increases the comfort.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row second_row_products_div">
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./image/ball_image_2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="#">Tennis Ball</a></h3>
+                        <p class="card-text second_row_products_price">$90</p>
+                        <p class="card-text">The tennis balls are hollow, spherical balls composed of rubber and have a
+                            cover of high-quality
+                            fluorescent yellow felt. The outer fibrous felt aids in the aerodynamic property of the ball
+                            and has
+                            a white curvilinear oval over it.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./image/watch_image_2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="#">Tacktile Watch</a></h3>
+                        <p class="card-text second_row_products_price">$500</p>
+                        <p class="card-text">Tactile watches are essentially a hybrid touchscreen watch. Most have an
+                            analog and digital display,
+                            like a standard hybrid watch. However, most digital watches have buttons on the side to
+                            cycle
+                            through functions. Tactile watches allow you to touch a specific part of the face for a
+                            certain
+                            function.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./image/fan_image_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="#">Pedestal Fan</a></h3>
+                        <p class="card-text second_row_products_price">$589</p>
+                        <p class="card-text">A pedestal fan is a type of electric fan mounted on a tall, adjustable
+                            stand, designed to provide
+                            powerful airflow and flexibility in placement.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./image/bed_image_2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="#">Air Mattress Bed</a></h3>
+                        <p class="card-text second_row_products_price"><del>$36000</del> $20300</p>
+                        <p class="card-text">An air mattress, also known as an airbed or a blow-up bed, is an inflatable
+                            mattress made of
+                            polyvinyl chloride (PVC) or textile-reinforced urethane plastic or rubber. The deflated
+                            mattress can
+                            be compacted and carried or stored in a small form.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row third_row_products_div">
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./image/ball_image_3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="#">Valley Ball</a></h3>
+                        <p class="card-text third_row_products_price">$156</p>
+                        <p class="card-text">A volleyball is a spherical ball used in the sport of volleyball, designed
+                            for both indoor and beach
+                            play, typically made of synthetic or genuine leather and featuring a bladder for air
+                            pressure
+                            adjustment.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./image/watch_image_3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="#">Touchscreen Watch</a></h3>
+                        <p class="card-text third_row_products_price">$1007</p>
+                        <p class="card-text">A touchscreen is made up of a touch panel and displays. And the former sits
+                            on top of the display.
+                            The system is usually an LCD or OLED screen. By touching the screen with a finger, a user
+                            may
+                            provide input or operate the system using basic gestures. The touchscreen allows direct
+                            interaction
+                            on the screen.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./image/fan_image_3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="#">Table Fan</a></h3>
+                        <p class="card-text third_row_products_price">$630</p>
+                        <p class="card-text">Table fan is another most popular centrifugal fan which is available from
+                            35 cubic meter/min to 100
+                            cubic meter/min. And the wattage ranges from 35 watts to 75 watts. Here 35 watts means, the
+                            table
+                            fan power consumption will be 35 watts per hour.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="./image/bed_image_3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="#">Sleigh Bed</a></h3>
+                        <p class="card-text third_row_products_price"><del>$98000</del> $75900</p>
+                        <p class="card-text">A sleigh bed is a distinctive style of bed characterized by its curved or
+                            scrolled headboard and
+                            footboard, resembling the shape of a traditional sleigh.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Customers Reviews List -->
+    <h3 class="customer_review_heading">CUSTOMERS REVIEWS
+        /////////////////////////////////////////////////////////////////////</h3>
+    <div class="container text-center">
+        <div class="row customer_review_div">
+            <div class="col customer_review_1_div">
+                <p>"I stumbled upon this tech store while searching for a new laptop, and I couldn't be happier with
+                    my
+                    experience! The staff was incredibly knowledgeable and guided me through the process of choosing
+                    the
+                    perfect device for my needs. Highly recommended!"</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <h5>Emma Chamberlin</h5>
+            </div>
+            <div class="col customer_review_2_div">
+                <p>"This tech store is my go-to for all things tech! Whether it's a new smartphone, accessories, or
+                    even
+                    troubleshooting advice, they've always got me covered. The staff is friendly, their expertise is
+                    unmatched. Trust me; you won't regret shopping here!"</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <h5>Thomas John</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lstest Posts Card List -->
+    <h3 class="latest_post_card_heading">LATEST POSTS
+        /////////////////////////////////////////////////////////////////////////////</h3>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-3 latest_gadgets_1_div">
+                <p class="latest_gadgets_1_heading"><a href="#">BALL</a></p>
+                <img src="./image/ball_image_4.webp" alt="">
+                <h4><a href="#">PLAY WITHIN THE HANDS</a></h4>
+                <p class="latest_post_price">$86</p>
+                <p class="latest_gadgets_image_description">A ball is a round object that can be used in various ways.
+                    It is commonly used in ball games, such as baseball, football, tennis, or golf. Balls can also be
+                    used for simpler activities like catch or juggling. In a social context, a ball refers to a formal
+                    gathering for social dancing or an extremely enjoyable time or experience.</p>
+                <p class="latest_gadgets_image_more_info"><a href="#">Read More</a></p>
+            </div>
+            <div class="col-lg-3 latest_phones_1_div">
+                <p class="latest_phones_1_heading"><a href="#">WATCH</a></p>
+                <img src="./image/watch_image_4.jpeg" alt="">
+                <h4><a href="#">TIME IN HAND</a></h4>
+                <p class="latest_post_price">$280</p>
+                <p class="latest_phones_image_description">A watch is a portable timepiece designed to be worn or
+                    carried, available in various types and styles, including mechanical, quartz, and smartwatches.</p>
+                <p class="latest_phones_image_more_info"><a href="#">Read More</a></p>
+            </div>
+            <div class="col-lg-3 latest_tech_1_div">
+                <p class="latest_tech_1_heading"><a href="#">FAN</a></p>
+                <img src="./image/fan_image_4.jpg" alt="">
+                <h4><a href="#">KEEP THE TEMPERATURE COOL</a></h4>
+                <p class="latest_post_price">$860</p>
+                <p class="latest_tech_image_description">A fan is a device used to create a flow of air. It consists of
+                    a rotating arrangement of vanes or blades, generally made of wood, plastic, or metal, which act on
+                    the air. The rotating assembly of blades and hub is known as an impeller, rotor, or runner.</p>
+                <p class="latest_tech_image_more_info"><a href="#">Read More</a></p>
+            </div>
+            <div class="col-lg-3 latest_digital_watch_1_div">
+                <p class="latest_digital_watch_1_heading"><a href="#">BED</a></p>
+                <img src="./image/bed_image_4.jpg" alt="">
+                <h4><a href="#">RELAX WITH COMFORTABLE</a></h4>
+                <p class="latest_post_price">$58900</p>
+                <p class="latest_digital_watch_description">A bed is a piece of furniture designed for sleeping,
+                    resting, and relaxing, available in various types, sizes, and styles to suit different needs and
+                    preferences.</p>
+                <p class="latest_digital_watch_image_more_info"><a href="#">Read Me</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Other Brand Name Image List -->
+    <div class="container-fluid text-center other_brand_name_image_container_div">
+        <hr class="other_brand_name_image_hr_1">
+        <div class="row other_brand_name_image_main_div">
+            <div class="col">
+                <a href="#"><img src="./image/brand_name_image_1.png" alt=""></a>
+            </div>
+            <div class="col">
+                <a href="#"><img src="./image/brand_name_image_2.png" alt=""></a>
+            </div>
+            <div class="col">
+                <a href="#"><img src="./image/brand_name_image_3.png" alt=""></a>
+            </div>
+            <div class="col">
+                <a href="#"><img src="./image/brand_name_image_4.png" alt=""></a>
+            </div>
+            <div class="col">
+                <a href="#"><img src="./image/brand_name_image_5.png" alt=""></a>
+            </div>
+        </div>
+        <hr class="other_brand_name_image_hr_2">
+    </div>
+
+    <!-- Instagram Images List  -->
+    <h3 class="instagram_images_heading">INSTAGRAM #SHOPLITE</h3>
+    <div class="container text-center instagram_images_container_div">
+        <div class="row">
+            <div class="col-lg-2">
+                <a href="#"><img src="./image/instagram_image_1.jpg" alt=""></a>
+            </div>
+            <div class="col-lg-2">
+                <a href="#"><img src="./image/instagram_image_2.jpg" alt=""></a>
+            </div>
+            <div class="col-lg-2">
+                <a href="#"><img src="./image/instagram_image_3.jpg" alt=""></a>
+            </div>
+            <div class="col-lg-2">
+                <a href="#"><img src="./image/instagram_image_4.jpg" alt=""></a>
+            </div>
+            <div class="col-lg-2">
+                <a href="#"><img src="./image/instagram_image_5.jpg" alt=""></a>
+            </div>
+            <div class="col-lg-2">
+                <a href="#"><img src="./image/instagram_image_6.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Links And Contact Details -->
+
+    <div class="container text-center links_and_contact_details_container_div">
+        <div class="row">
+            <div class="col-lg-3 links_and_contact_details_div_1">
+                <img src="./image/main-logo.png" alt="">
+                <p>Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean
+                    odio erat nullam fringilla.</p>
+                <ul>
+                    <li><a href="#"><img src="./image/links_and_contact_details_logo_1.png" alt=""></a></li>
+                    <li><a href="#"><img src="./image/links_and_contact_details_logo_2.png" alt=""></a></li>
+                    <li><a href="#"><img src="./image/links_and_contact_details_logo_3.png" alt=""></a></li>
+                    <li><a href="#"><img src="./image/links_and_contact_details_logo_4.png" alt=""></a></li>
+                    <li><a href="#"><img src="./image/links_and_contact_details_logo_5.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 links_and_contact_details_div_2">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">BLOGS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 links_and_contact_details_div_3">
+                <h5>Help & Info Help</h5>
+                <ul>
+                    <li><a href="#">TRACK YOUR ORDER</a></li>
+                    <li><a href="#">RETURNS POLICIES</a></li>
+                    <li><a href="#">SHIPPING + DELIVERY</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">FAQS</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 links_and_contact_details_div_4">
+                <h5>CONTACT US</h5>
+                <p>Do you have any queries or suggestions? <a href="#">yourinfo@gmail.com</a></p>
+                <p>If you need support? Just give us a call, <a href="#">+55 111 222 333 44</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Container -->
+
+    <hr class="footer_top_horizontal_line">
+
+    <div class="container text-center footer_contaier_div">
+        <div class="row footer_main_div">
+            <div class="col footer_div_1">
+                <div class="ship_and_payment">
+                    <div class="ship">
+                        <p>We ship with: </p>
+                        <img src="./image/footer_image_1.png" alt="" class="footer_image_1">
+                        <img src="./image/footer_image_2.png" alt="" class="footer_image_2">
+                    </div>
+                    <div class="payment">
+                        <p>Payment options: </p>
+                        <img src="./image/footer_image_3.jpg" alt="" class="footer_image_3">
+                        <img src="./image/footer_image_4.jpg" alt="" class="footer_image_4">
+                        <img src="./image/footer_image_5.jpg" alt="" class="footer_image_5">
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>© Copyright 2024 ShopLite. HTML Template by <a href="#">TemplatesJungle</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

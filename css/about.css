@@ -1,0 +1,676 @@
+/* Universal reset */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.whole_page_container_div {
+  overflow: hidden;
+}
+/* ----------------------------------------------------------------- */
+
+/* Business sales detail grid container */
+
+.business_info > div {
+  border: 1px solid rgb(173, 161, 161, 0.5);
+  padding: 10px 0px;
+}
+
+.help_num_1 {
+  text-decoration: none;
+  color: black;
+  color: all 0.3s ease;
+}
+
+.help_num_1:hover {
+  color: orangered;
+}
+
+.shop_now_1 {
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.shop_now_1:hover {
+  color: orangered;
+}
+
+/* Navigation Bar */
+
+.nav_bar_tag_container,
+.nav_bar_div_container {
+  background-color: white;
+}
+
+.main_nav_bar a {
+  font-size: 17px;
+  transition: color 0.3s ease;
+  margin-right: 25px;
+}
+
+.main_nav_bar a:hover {
+  color: orangered;
+}
+
+.about_page {
+  color: orangered !important;
+}
+
+.sub_nav_bar span {
+  background-color: orangered;
+  border-radius: 10px;
+  color: white;
+  padding: 1px 5px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.get_pro {
+  text-decoration: underline;
+}
+
+.nav_bar_icon a {
+  font-size: 23px;
+  transition: all 0.3s ease;
+}
+
+.nav_bar_icon a:hover {
+  color: orangered;
+}
+
+/* Page Heading Container */
+
+.page_heading_container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 125px;
+  justify-items: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.page_heading_container > h1 {
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.page_heading_container > p {
+  font-size: 21px;
+}
+
+.page_heading_container > p > a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.page_heading_container > p > a:hover {
+  color: orangered;
+}
+
+/* Company Service Card List */
+.company_services_container {
+  display: flex;
+  flex-direction: row;
+  margin: 150px 70px;
+}
+
+.company_services_container > div {
+  border: none;
+  margin: 0px;
+}
+
+.company_services_container i {
+  font-size: 33px;
+  color: orangered;
+  padding-left: 80px;
+}
+
+.company_services_container h3 {
+  font-weight: normal;
+}
+
+/* Best Store Card Container */
+
+.best_store_card_div {
+  border: none !important;
+}
+
+.best_store_card_heading {
+  margin-top: 30px;
+  font-weight: normal;
+}
+
+.best_store_card_text,
+.best_store_card_shop_button {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.best_store_card_shop_button {
+  background-color: orangered;
+  border-radius: 30px;
+  border: none;
+  padding: 15px 45px;
+  transition: all 0.3s ease;
+}
+
+.best_store_card_shop_button:hover {
+  background-color: black;
+}
+
+.best_store_card_shop_button > a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Featured Latest Best Sale Container */
+.featured_latest_best_sale_container {
+  margin-top: 200px;
+}
+
+.featured_latest_best_sale_heading_div > div {
+  justify-items: center;
+}
+
+.first_row_products_div > div > div,
+.second_row_products_div > div > div,
+.third_row_products_div > div > div {
+  border: none !important;
+}
+
+.first_row_products_div > div > div > div,
+.second_row_products_div > div > div > div,
+.third_row_products_div > div > div > div {
+  text-align: center;
+}
+
+.first_row_products_div > div > div > div > h3 > a,
+.second_row_products_div > div > div > div > h3 > a,
+.third_row_products_div > div > div > div > h3 > a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.first_row_products_div > div > div > div > h3 > a:hover,
+.second_row_products_div > div > div > div > h3 > a:hover,
+.third_row_products_div > div > div > div > h3 > a:hover {
+  color: orangered;
+}
+
+.first_row_products_div > div > div > img,
+.second_row_products_div > div > div > img,
+.third_row_products_div > div > div > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.first_row_products_div > div > div > div > .first_row_products_price,
+.second_row_products_div > div > div > div > .second_row_products_price,
+.third_row_products_div > div > div > div > .third_row_products_price {
+  color: orangered;
+}
+
+.first_row_products_div > div > div > div > p,
+.second_row_products_div > div > div > div > p,
+.third_row_products_div > div > div > div > p {
+  font-size: 18px;
+}
+
+.first_row_products_div > div > div > div > p > del,
+.second_row_products_div > div > div > div > p > del,
+.third_row_products_div > div > div > div > del {
+  color: gray;
+}
+
+.first_row_products_div > div > div > div > a,
+.second_row_products_div > div > div > div > a,
+.third_row_products_div > div > div > div > a {
+  font-size: 18px;
+}
+
+/* Customer Review List Container */
+.customer_review_heading {
+  margin-top: 150px;
+  margin-bottom: 30px;
+  justify-self: center;
+  font-size: 30px;
+  opacity: 0.5;
+}
+
+.customer_review_div > div {
+  padding: 30px 25px;
+  border: 1px solid rgb(170, 170, 170);
+  gap: 10px;
+  text-align: left;
+  font-size: 21px;
+  font-weight: normal;
+}
+
+.customer_review_1_div > i,
+.customer_review_2_div > i {
+  color: orangered;
+}
+
+.customer_review_1_div > h5,
+.customer_review_2_div > h5 {
+  margin-top: 5px;
+}
+
+/* Latest Posts Card */
+.latest_post_card_heading {
+  margin-top: 200px;
+  margin-bottom: 70px;
+  opacity: 0.5;
+  font-size: 30px;
+  justify-self: center;
+}
+
+.latest_gadgets_1_div,
+.latest_phones_1_div,
+.latest_tech_1_div,
+.latest_digital_watch_1_div {
+  position: relative;
+  text-align: left;
+}
+
+.latest_gadgets_1_div > img,
+.latest_phones_1_div > img,
+.latest_tech_1_div > img,
+.latest_digital_watch_1_div > img {
+  width: 230px;
+  height: 155px;
+}
+
+.latest_post_price {
+  color: orangered;
+}
+
+.latest_gadgets_1_heading,
+.latest_phones_1_heading,
+.latest_tech_1_heading,
+.latest_digital_watch_1_heading {
+  background-color: orangered;
+  padding: 0px 10px;
+  width: max-content;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: -25px;
+}
+
+.latest_gadgets_1_heading:hover,
+.latest_phones_1_heading:hover,
+.latest_tech_1_heading:hover,
+.latest_digital_watch_1_heading:hover {
+  background-color: black;
+}
+
+.latest_gadgets_1_heading > a,
+.latest_phones_1_heading > a,
+.latest_tech_1_heading > a,
+.latest_digital_watch_1_heading > a {
+  text-decoration: none;
+  color: white;
+}
+
+.latest_gadgets_1_div > img,
+.latest_phones_1_div > img,
+.latest_tech_1_div > img,
+.latest_digital_watch_1_div > img {
+  width: 100%;
+}
+
+.latest_gadgets_1_div > h4,
+.latest_phones_1_div > h4,
+.latest_tech_1_div > h4,
+.latest_digital_watch_1_div > h4 {
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.latest_gadgets_1_div > h4 > a,
+.latest_phones_1_div > h4 > a,
+.latest_tech_1_div > h4 > a,
+.latest_digital_watch_1_div > h4 > a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.latest_gadgets_1_div > h4 > a:hover,
+.latest_phones_1_div > h4 > a:hover,
+.latest_tech_1_div > h4 > a:hover,
+.latest_digital_watch_1_div > h4 > a:hover {
+  color: orangered;
+}
+
+.latest_gadgets_image_more_info > a,
+.latest_phones_image_more_info > a,
+.latest_tech_image_more_info > a,
+.latest_digital_watch_image_more_info > a {
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.latest_gadgets_image_more_info > a:hover,
+.latest_phones_image_more_info > a:hover,
+.latest_tech_image_more_info > a:hover,
+.latest_digital_watch_image_more_info > a:hover {
+  color: orangered;
+}
+
+/* Other Brand Name Image List */
+.other_brand_name_image_container_div {
+  margin-top: 150px;
+}
+
+.other_brand_name_image_hr_1 {
+  margin-bottom: 100px;
+}
+
+.other_brand_name_image_hr_2 {
+  margin-top: 100px;
+}
+
+.other_brand_name_image_main_div > div {
+  align-self: center;
+}
+.other_brand_name_image_main_div > div > a > img {
+  filter: invert(53%) sepia(5%) saturate(14%) hue-rotate(40deg) brightness(93%)
+    contrast(82%);
+  transition: all 0.3s ease;
+}
+
+.other_brand_name_image_main_div > div > a > img:hover {
+  filter: invert(30%) sepia(65%) saturate(3219%) hue-rotate(4deg)
+    brightness(104%) contrast(109%);
+}
+
+/* Instagram Images List */
+.instagram_images_heading {
+  opacity: 0.5;
+  justify-self: center;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.instagram_images_container_div > div > div > a > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.instagram_images_container_div {
+  margin-bottom: 150px;
+}
+
+/* Links and Contact Details */
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_1 {
+  text-align: left;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_1
+  > img {
+  margin-bottom: 10px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_1
+  > p {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_1
+  > ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_1
+  > ul
+  > li {
+  padding-right: 30px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_1
+  > ul
+  > li
+  > a
+  > img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.3;
+  transition: all 0.3s ease;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_1
+  > ul
+  > li
+  > a
+  > img:hover {
+  filter: invert(30%) sepia(65%) saturate(3219%) hue-rotate(4deg)
+    brightness(104%) contrast(109%);
+  opacity: 1;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_2 {
+  text-align: left;
+  padding-left: 75px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_2
+  > h5 {
+  margin-bottom: 25px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_2
+  > ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_2
+  > ul
+  > li {
+  margin-bottom: 3px;
+  font-size: 18px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_2
+  > ul
+  > li
+  > a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_2
+  > ul
+  > li
+  > a:hover {
+  color: orangered;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_3 {
+  text-align: left;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_3
+  > h5 {
+  margin-bottom: 25px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_3
+  > ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_3
+  > ul
+  > li {
+  margin-bottom: 3px;
+  font-size: 18px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_3
+  > ul
+  > li
+  > a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_3
+  > ul
+  > li
+  > a:hover {
+  color: orangered;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_4
+  > h5 {
+  margin-bottom: 25px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_4 {
+  text-align: left;
+}
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_4
+  > p {
+  font-size: 18px;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_4
+  > p
+  > a {
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.links_and_contact_details_container_div
+  > div
+  > .links_and_contact_details_div_4
+  > p
+  > a:hover {
+  color: orangered;
+}
+
+.links_and_contact_details_container_div > div {
+  margin-bottom: 50px;
+}
+
+/* Footer Container */
+.footer_top_horizontal_line {
+  opacity: 0.2;
+  margin-bottom: 30px;
+}
+
+.footer_div_1 > div {
+  display: flex;
+  justify-content: start;
+}
+
+.ship {
+  display: flex;
+}
+
+.payment {
+  display: flex;
+  margin-left: 50px;
+}
+
+.ship > p,
+.payment > p,
+.copyright > p {
+  font-size: 18px;
+}
+
+.copyright > p > a {
+  text-decoration: none;
+  color: black;
+}
+
+.copyright > p > a:hover {
+  color: orangered;
+}
+
+.footer_image_1 {
+  width: 60px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.footer_image_2 {
+  width: 38px;
+  height: 24px;
+  margin-left: 5px;
+}
+
+.footer_image_3 {
+  margin-left: 10px;
+}
+
+.footer_image_3,
+.footer_image_4,
+.footer_image_5 {
+  width: 30px;
+  height: 24px;
+  padding-right: 3px;
+}
